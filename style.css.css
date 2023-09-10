@@ -1,0 +1,64 @@
+h1, h2 {
+text-align: center;
+}
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 90%;
+}
+.rules, ol {
+    text-align: center;
+    list-style-position: inside;
+    color:darkgreen;
+    border-style:inset;
+}
+h1 {
+font-family: 'Inspiration', cursive;
+font-size: 70px;
+}
+.game {
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNuGsJe1ab5lqrdeO2EQm5wGXAWRx_lJzUog&usqp=CAU");
+    background-size: cover;
+    background-position: center;
+    border-collapse: collapse;
+    width: 40%;
+    height: 500px;
+
+
+}
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fc0e31be, 0 0 40px #fc0e31be, 0 0 50px #fc0e31be, 0 0 60px #fc0e31be, 0 0 70px #fc0e31be;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #f92424, 0 0 40px #f92424, 0 0 50px #f92424, 0 0 60px #f92424, 0 0 70px #f92424, 0 0 80px #f92424;
+    }
+  }
+#gameboard {
+    display: flex;
+    justify-content: center;
+  }
+  @keyframes shake {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
