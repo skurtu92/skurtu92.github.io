@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ship Wreck</title>
+    <link rel="icon" type="image/x-icon" href="https://media.istockphoto.com/id/531714238/vector/treasure-chest.jpg?s=612x612&w=0&k=20&c=Oo6n3qjJ5girsfbP3BmOItkWH0MrDiVK2FFogAjMTG4=">
+    <link rel=" stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet">
+</head>
+<style>
+body {
+    background-image: url(https://freesvg.org/img/1686211313tropical-island-in-the-distance.png);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center;
+}
+</style>
+<body>
+    <h1 class="glow">Ship Wreck!</h1>
+    <h2><i> Black Jack's Jewels</i></h2>
+    <ul class="rules"><strong>
+        <li>You have 3 chances to get rich or die trying!<img src="https://cdn3.iconfinder.com/data/icons/object-emoji/50/TreasureChest-512.png" width="30" height="30"> </li>
+        <li>Find Treasure Island before you get Ship Wrecked<img src="https://image.emojipng.com/13/3495013.jpg" width="30" height="30"></li>
+        <li> Get caught by Pirates and lose!<img src="https://emojiisland.com/cdn/shop/products/Pirate_Skull_Emoji_Icon_b77a0005-472e-41e4-ad15-fd871038f91e_1024x1024.png?v=1571606092" width="30" height="30"></li></strong>
+    </ul>
+    <button type="button" onclick="location.reload()">Restart Game</button>
+<div id="gameboard">
+    <table class="game"; border="5"
+            display: flex;
+            justify-content:center;>
+            <tr>
+                <td id="0" onclick="changeToPic(0)">square1</td>
+                <td id="1" onclick="changeToPic(1)">square2</td>
+                <td id="2" onclick="changeToPic(2)">square3</td>
+            </tr>
+            <tr>
+                <td id="3" onclick="changeToPic(3)">square4</td>
+                <td id="4" onclick="changeToPic(4)">square5</td>
+                <td id="5" onclick="changeToPic(5)">square6</td>
+            </tr>
+            <tr>
+                <td id="6" onclick="changeToPic(6)">square7</td>
+                <td id="7" onclick="changeToPic(7)">square8</td>
+                <td id="8" onclick="changeToPic(8)">square9</td>
+            </tr>
+    </table>
+</div>
+    <footer>&copy Cooper - Khalid - Sara |
+        <a href="https://www.offshoreinjuryfirm.com/maritime-piracy/what-to-do-in-the-event-of-a-pirate-attack/" target="_blank">How to Fight Pirates</a>
+    </footer>
+    <script type="text/javascript" src="treasureHunt.js"></script>
+</body>
+</html>
